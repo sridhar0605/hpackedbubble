@@ -126,6 +126,7 @@ shiny::shinyAppDir(".")
 ## Using `hpackedbubble` within Shiny applications
 
 Of course, it can be used in RMarkdown documents and Shiny applications.
+
 ------------
 
 <h4 align="center">

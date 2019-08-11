@@ -1,0 +1,36 @@
+language: R
+cache: packages
+
+# build matrix; turn on vdiffr only on r release
+matrix:
+  include:
+  - r: devel
+    # avoind errors due to world clock API (hopefully can be removed in future)
+    env: _R_CHECK_SYSTEM_CLOCK_=false
+  - r: 3.5
+  - r: 3.4
+
+# environment variables set for all builds
+env:
+  global:
+  # don't treat missing suggested packages as error
+  - _R_CHECK_FORCE_SUGGESTS_=false
+  # switch off vdiffr by default
+  - VDIFFR_RUN_TESTS=false
+
+after_success:
+  - Rscript -e 'covr::codecov()'
+
+addons:
+  apt:
+    sources:
+      - sourceline: 'ppa:ubuntugis/ppa'
+    packages:
+      - libudunits2-dev
+      - libproj-dev
+      - libgeos-dev
+      - libgdal-dev
+
+script:
+- R CMD build .
+- R CMD check *tar.gz --as-cran
