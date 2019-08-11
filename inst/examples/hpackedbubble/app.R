@@ -96,7 +96,7 @@ ui <- fluidPage(
       ),
       textInput(
         inputId = "height",
-        label = "Hight: ",
+        label = "Height: ",
         placeholder = "500px",
         value = "500px"
       ),
@@ -217,7 +217,9 @@ server <- function(input, output) {
       dataLabels = input$dataLabels,
       dataLabelsformat = input$dataLabelsformat,
       dataLabelsFilter = input$dataLabelsFilter,
-      dataLabelsColor = input$dataLabelsColor
+      dataLabelsColor = input$dataLabelsColor,
+      height = input$height,
+      width = input$width
     )
   })
 }
