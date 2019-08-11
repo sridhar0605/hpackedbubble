@@ -1,6 +1,7 @@
 # hpackedbubble
 <!-- badges: start -->
-[![Launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/czxa/hpackedbubble/master)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis](https://travis-ci.org/czxa/hpackedbubble.svg?branch=master)](https://travis-ci.org/czxa/hpackedbubble)
 <!-- badges: end -->
 Create Split Packed Bubble Charts
 

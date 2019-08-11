@@ -18,7 +18,8 @@ Suggests:
     knitr,
     rmarkdown,
     shiny,
-    colourpicker
+    colourpicker,
+    covr
 Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
 URL: https://github.com/czxa/hpackedbubble
