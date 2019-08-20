@@ -1,6 +1,6 @@
 #' Create Split Packed Bubble Charts
 #'
-#' @description By binding R functions and the'Highcharts'chart library,'hpackedbubble' package provides a simple way to draw Split Packed bubble charts.
+#' @description By binding R functions and the 'Highcharts' <http://www.highcharts.com/> charting library, 'hpackedbubble' package provides a simple way to draw split packed bubble charts.
 #'
 #' @param cat category verctor;
 #' @param name name vector;
@@ -20,8 +20,8 @@
 #' @param subtitleColor subtitle color, like "#666666"
 #' @param pointFormat The HTML of the point's line in the tooltip.
 #' @param split Whether to split series into individual groups or to mix all series together. 1 means to split, 0 means to not, defaults to split;
-#' @param packedbubbleMinSize Minimum bubble size. Defaults to '10\%';
-#' @param packedbubbleMaxSize Maximum bubble size. Defaults to '50\%';
+#' @param packedbubbleMinSize Minimum bubble size. Defaults to '50\%';
+#' @param packedbubbleMaxSize Maximum bubble size. Defaults to '250\%';
 #' @param packedbubbleZMin The minimum for the Z value range. Defaults to 0, you can use the lowest Z value in the data;
 #' @param packedbubbleZmax The maximum for the Z value range. Defaults to 1000, you can use the highest Z value in the data;
 #' @param gravitational Gravitational const used in the barycenter force of the algorithm. Defaults to 0.0625.
@@ -34,7 +34,11 @@
 #' @param dataLabelsColor Data labels' color, defaults to black.
 #'
 #' @import htmlwidgets
-#'
+#' @examples
+#' library(hpackedbubble)
+#' if (interactive()) {
+#'   hpackedbubble(CO2$continent, CO2$country, CO2$CO2)
+#' }
 #' @export
 hpackedbubble <- function(
   cat,
@@ -53,8 +57,8 @@ hpackedbubble <- function(
   subtitleColor = "#666666",
   pointFormat = "<b>{point.name}:</b> {point.y}",
   split = 1,
-  packedbubbleMinSize = '10%',
-  packedbubbleMaxSize = '50%',
+  packedbubbleMinSize = '50%',
+  packedbubbleMaxSize = '250%',
   packedbubbleZMin = 0,
   packedbubbleZmax = 1000,
   gravitational = 0.0625,

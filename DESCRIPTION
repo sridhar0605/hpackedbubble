@@ -1,14 +1,14 @@
 Package: hpackedbubble
 Title: Create Split Packed Bubble Charts
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Zhenxing",
            family = "Cheng",
            role = c("aut", "cre"),
            email = "czxjnu@163.com")
-Description: By binding R functions and the'Highcharts'chart library,'hpackedbubble' package provides a simple way to draw Split Packed bubble charts.
+Description: By binding R functions and the 'Highcharts' <http://www.highcharts.com/> charting library, 'hpackedbubble' package provides a simple way to draw split packed bubble charts.
 License: MIT + file LICENSE
-Date: 2019-08-11
+Date: 2019-08-18
 Encoding: UTF-8
 Depends: R (>= 3.0.0)
 LazyData: true
@@ -18,8 +18,7 @@ Suggests:
     knitr,
     rmarkdown,
     shiny,
-    colourpicker,
-    covr
+    colourpicker
 Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
 URL: https://github.com/czxa/hpackedbubble

@@ -10,7 +10,7 @@ hpackedbubble(cat, name, value, theme = "sandsignika", width = NULL,
   subtitleAlign = "center", subtitleSize = "",
   subtitleColor = "#666666",
   pointFormat = "<b>{point.name}:</b> {point.y}", split = 1,
-  packedbubbleMinSize = "10\%", packedbubbleMaxSize = "50\%",
+  packedbubbleMinSize = "50\%", packedbubbleMaxSize = "250\%",
   packedbubbleZMin = 0, packedbubbleZmax = 1000,
   gravitational = 0.0625, seriesInteraction = 1,
   dragBetweenSeries = 1, parentNodeLimit = 1, dataLabels = 1,
@@ -52,9 +52,9 @@ gridlight/grid/sandsignika/sunset;}
 
 \item{split}{Whether to split series into individual groups or to mix all series together. 1 means to split, 0 means to not, defaults to split;}
 
-\item{packedbubbleMinSize}{Minimum bubble size. Defaults to '10\%';}
+\item{packedbubbleMinSize}{Minimum bubble size. Defaults to '50\%';}
 
-\item{packedbubbleMaxSize}{Maximum bubble size. Defaults to '50\%';}
+\item{packedbubbleMaxSize}{Maximum bubble size. Defaults to '250\%';}
 
 \item{packedbubbleZMin}{The minimum for the Z value range. Defaults to 0, you can use the lowest Z value in the data;}
 
@@ -77,5 +77,11 @@ gridlight/grid/sandsignika/sunset;}
 \item{dataLabelsColor}{Data labels' color, defaults to black.}
 }
 \description{
-By binding R functions and the'Highcharts'chart library,'hpackedbubble' package provides a simple way to draw Split Packed bubble charts.
+By binding R functions and the 'Highcharts' \url{http://www.highcharts.com/} charting library, 'hpackedbubble' package provides a simple way to draw split packed bubble charts.
+}
+\examples{
+library(hpackedbubble)
+if (interactive()) {
+  hpackedbubble(CO2$continent, CO2$country, CO2$CO2)
+}
 }

@@ -2,12 +2,16 @@
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis](https://travis-ci.org/czxa/hpackedbubble.svg?branch=master)](https://travis-ci.org/czxa/hpackedbubble)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-day/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-week/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
 <!-- badges: end -->
 Create Split Packed Bubble Charts
 
 See [Create Split Packed Bubble Charts @ Rpub](http://rpubs.com/czxatop/hpackedbubble)
 
-By binding R functions and the'Highcharts'chart library,'hpackedbubble' package provides a simple way to draw Split Packed bubble charts. When using this package, please pay attention to whether your computer is connected to the Internet. The software package can only work properly when there is a network connection.
+By binding R functions and the 'Highcharts' <http://www.highcharts.com/> charting library, 'hpackedbubble' package provides a simple way to draw split packed bubble charts. When using this package, please pay attention to whether your computer is connected to the Internet. The software package can only work properly when there is a network connection.
 
 ## Installation
 
