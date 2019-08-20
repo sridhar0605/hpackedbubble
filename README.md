@@ -15,14 +15,14 @@ By binding R functions and the 'Highcharts' <http://www.highcharts.com/> chartin
 
 ## Installation
 
-```r 
+```r
 # From CRAN
 install.packages("hpackedbubble", build_vignettes = TRUE)
 # Or from GitHub
 devtools::install_github("czxa/hpackedbubble", build_vignettes = TRUE)
 ```
 
-This software package can draw two kinds of bubble chart, packed bubble charts and split packed bubble charts. these two pattern was controled by `split` parameter. `split = 1` means to draw split packed bubble charts and `split = 0` means packed bubble charts. 
+This software package can draw two kinds of bubble chart, packed bubble charts and split packed bubble charts. these two pattern was controled by `split` parameter. `split = 1` means to draw split packed bubble charts and `split = 0` means packed bubble charts.
 
 ## Packed Bubble Charts and Split Packed Bubble Charts
 
@@ -47,7 +47,7 @@ hpackedbubble(CO2$continent, CO2$country, CO2$CO2,
 
 ![](https://czxb.github.io/br/hpackedbubble1.png)
 
-It's very crowded to put together the bubbles of countries on all continents. Splot packed bubble chart separates bubbles from continents by a single large bubble: 
+It's very crowded to put together the bubbles of countries on all continents. Splot packed bubble chart separates bubbles from continents by a single large bubble:
 
 ```r
 hpackedbubble(CO2$continent, CO2$country, CO2$CO2,
@@ -67,11 +67,11 @@ hpackedbubble(CO2$continent, CO2$country, CO2$CO2,
 ```
 ![](https://czxb.github.io/br/hpackedbubble2.png)
 
-It looks much better. 
+It looks much better.
 
 ## Theme parameter
 
-I set many parameters for this chart, the most influential of which is the 'theme' parameter. there have 9 kinds of theme you can use: darkgreen, darkblue, avocado, darkunica, gray, gridlight, grid, sandsignika and sunset. 
+I set many parameters for this chart, the most influential of which is the 'theme' parameter. there have 9 kinds of theme you can use: darkgreen, darkblue, avocado, darkunica, gray, gridlight, grid, sandsignika and sunset.
 
 ### darkgreen
 
@@ -144,5 +144,3 @@ License
 MIT © czxa.top
 
 </h6>
-
-
