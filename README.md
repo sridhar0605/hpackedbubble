@@ -48,7 +48,7 @@ hpackedbubble(CO2$continent, CO2$country, CO2$CO2,
 
 ![](https://czxb.github.io/br/hpackedbubble1.png)
 
-It's very crowded to put together the bubbles of countries on all continents. Splot packed bubble chart separates bubbles from continents by a single large bubble:
+It's very crowded to put together the bubbles of countries on all continents. Split packed bubble chart separates bubbles from continents by a single large bubble:
 
 ```r
 hpackedbubble(CO2$continent, CO2$country, CO2$CO2,
