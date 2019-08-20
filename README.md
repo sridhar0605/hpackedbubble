@@ -1,5 +1,6 @@
 # hpackedbubble
 <!-- badges: start -->
+[![Rdoc](http://www.rdocumentation.org/badges/version/hpackedbubble)](http://www.rdocumentation.org/packages/hpackedbubble)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis](https://travis-ci.org/czxa/hpackedbubble.svg?branch=master)](https://travis-ci.org/czxa/hpackedbubble)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
