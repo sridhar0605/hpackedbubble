@@ -1,4 +1,4 @@
-# hpackedbubble
+# hpackedbubble: Create Split Packed Bubble Charts
 <!-- badges: start -->
 [![Rdoc](http://www.rdocumentation.org/badges/version/hpackedbubble)](http://www.rdocumentation.org/packages/hpackedbubble)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
@@ -8,7 +8,6 @@
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-week/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/hpackedbubble?color=blue)](https://r-pkg.org/pkg/hpackedbubble)
 <!-- badges: end -->
-Create Split Packed Bubble Charts
 
 See [Create Split Packed Bubble Charts @ Rpub](http://rpubs.com/czxatop/hpackedbubble)
 
